@@ -42,7 +42,7 @@ if not TTS_AVAILABLE: print("[WARN] No TTS. Install: pip install edge-tts pygame
 # API key and model for the Groq LLM (vision-capable multimodal model).
 # YOLO_EVERY controls how often YOLO runs: every frame on GPU, every 4 on CPU.
 # SKIP_LABELS filters out detections we don't want users to select (e.g. person).
-GROQ_API_KEY   = "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"
+GROQ_API_KEY   = "API_KEY"
 VISION_MODEL   = "meta-llama/llama-4-scout-17b-16e-instruct"  # AI model vision and responce.
 YOLO_MODEL, SKIP_LABELS, YOLO_CONF = "yolo26l.pt", {"person"}, 0.40
 EDGE_TTS_VOICE = "en-IN-NeerjaNeural"
